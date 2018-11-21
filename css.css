@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css?family=Hind');
+
+html{
+    scroll-behavior: smooth
+}
+
+body {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+
+.name h1 {
+    text-align: center;
+    font-family: Hind;
+    font-weight: 100;
+    font-size: 30px;
+    letter-spacing: 1.1vw;
+    line-height: 0.0;
+    padding: 50px;    
+    color: #fff;
+}
+
+.name h2 {
+    text-align: center;
+    font-family: Hind;
+    font-weight: 100;
+    font-size: 15px;
+    letter-spacing: 1vw;
+    justify-content: center;
+    line-height: 2.0;
+    color: #fff;
+}
+
+.menu {
+ display: block;      
+}
+
+.bar {
+    border: 1px solid #fff;
+    color: rgb(63, 63, 63);
+    font-family: Hind;
+    letter-spacing: 2px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(1, 45px);
+    align-content: center;
+    align-items: center;
+}
+
+.enter-container {
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("mnich.jpg");
+    opacity: 0.8;
+    background-size: cover;
+}
+
+.bar-item {
+    text-decoration: none;
+    transition: 0.5s all ease-in-out;
+    color: #fff;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 5px;
+}
+
+.bar-item:hover {
+    background-color: rgb(226, 226, 226);
+    background-size: cover;
+    color: black;
+    transition: 0.5s all ease-in-out;
+    box-sizing: border-box;
+}
+
+.bar li {
+    list-style: none;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+ul li {
+    list-style: none;
+    text-align: center;
+}
+
+.text-container {
+    margin: 4% 10%;
+}
+.text-container article {
+    font-family: Hind;
+    width: 50%;
+    padding: 15px;
+    box-sizing: border-box;
+    height: 100%;
+}
+
+.skills {
+    font-family: Hind;
+    width: 100%;
+    background: rgb(250, 250, 250);
+    padding: 125px 0 100px ;
+    text-align: center;
+    border-top: 1px solid #ececec;
+}
+
+.small-header {
+    font-family: Hind;
+    color: rgb(63, 63, 63);
+    margin-bottom: 20px;
+    font-size: 25px;
+    font-weight: 100;
+    border-bottom: 2px solid #9e9e9e;
+    max-width: 250px;
+    padding-bottom: 10px; 
+    margin: 0 auto 20px;
+    text-align: center;
+}
+
+.row-skills {
+    display: flex;
+    justify-content: center;
+}
+
+.skill-container {
+    margin: 30px;
+}
+
+.symbol {
+width: 100px;
+height: 100px;
+}
+.symbol:hover {
+  color: #fff;
+    }
+
+.about {
+    font-family: Hind;
+    width: 100%;
+    background: rgb(255, 255, 255);
+    padding: 50px 0 100px;
+    text-align: center;
+    position: relative;  
+}
+
+.photo {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+.photo p {
+    margin: 10px 10px 0 30px;
+    text-align: justify;
+}
+
+.photo img {
+    width: 100%;
+}
+
+#interests-container {
+    font-family: Hind;
+    width: 100%;
+    background: rgb(255, 255, 255);
+    padding: 50px 0 100px;
+    text-align: center;
+    background: #f4f4f46e;
+}
+
+.interests {
+    display: flex;
+    justify-content: center
+}
+
+.interests > div {
+    width: 30%;
+    padding: 20px;
+    box-shadow: 3px 4px 3px 0px rgba(201, 201, 201, 0.75);
+    margin: 20px;
+    background: #fff;
+}
+
+.interest-icon {
+  margin-bottom: 20px;
+}
+
+.interest-icon img {
+    height: 50px;
+}
+
+.l-container {
+    width: 100%; 
+    background-color: #ddd; 
+}
+
+.skill-l {
+    text-align: right;
+    padding: 10px; 
+    color: white;
+}
+
+.english {width: 70%; background-color: rgb(63, 63, 63);} 
+.russian {width: 60%; background-color: rgb(63, 63, 63);} 
+.ukrainian {width: 90%; background-color: rgb(63, 63, 63);} 
+.italian {width: 20%; background-color: rgb(63, 63, 63);} 
+
+
+#footer {
+    display: block;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 20px;
+    padding: 50px 0 45px 0;
+    background: #3f3f3f;
+}
+
+#skills-container {
+    background: #fff;
+}
+
+#projects-container {
+    padding: 50px;
+    background: #f4f4f46e;
+}
+
+#footer {
+    display: flex;
+    justify-content: flex-start;
+    align-content: center
+}
+
+#footer h3 {
+    color: #fff;
+    font-family: Hind;
+    font-weight: 100;
+    font-size: 24px;
+    letter-spacing: 0.2px;
+    margin-left: 20px;
+    display: flex;
+
+    align-items: center;
+}
+
+footer .icon img {
+    width: 40px;
+    height: 40px; 
+}
+
+.social-icons {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 50px;
+}
+
+.social-icons a {
+    margin: 10px;
+}
